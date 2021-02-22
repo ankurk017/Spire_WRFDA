@@ -18,7 +18,7 @@ This tool needs 2 optional arguments as follows,
 
 1. User needs to specify spat_res, end_date and _output_filename_ as arguments
 
-`$python spire_to_wrf.py  --spat_res=15 --output_filename='spire_wrfda_input.txt`
+`$ python spire_to_wrf.py  --spat_res=15 --output_filename='spire_wrfda_input.txt`
 
 `$ python spire_to_wrf.py  --spat_res=15`
 
