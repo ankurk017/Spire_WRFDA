@@ -32,7 +32,6 @@ This tool needs 2 optional arguments as follows,
 
 ***Step 1a***
 Ordering the Spire data from SDX would look like
-
 ![](screenshots/image01.jpg)
 
 ***Step 1b***
@@ -47,7 +46,6 @@ Make sure to extract all netcdf files from this downloaded folder.
 ![](screenshots/image04.jpg)
 
 Created file from this step would look something like this, which contains header and data entries for multiple stations:
-
 ![](screenshots/image05.jpg)
 
 ![](screenshots/image06.jpg)
@@ -67,7 +65,6 @@ Created file from this step would look something like this, which contains heade
 ·       Write out the observation file to be used by WRFDA in ASCII or BUFR format
 
 The input of this step would be the output of the text file which is being generated using this package (refer step 2). While compiling obsproc.exe, the details like the number of observations ingest, number of stations processed will be displayed
-
 ![](screenshots/image07.jpg)
 
 ![](screenshots/image08.jpg)
@@ -80,7 +77,6 @@ This step results into creating conventional observations file, which would look
 
 
 **Step 4**: Once we have the output from _obsproc.exe_, the next step is to update background using update_bc.exe ($WRFDA_DIR/var/test/update_bc)
-
 ![](screenshots/image11.jpg)
 
 ![](screenshots/image12.jpg)
