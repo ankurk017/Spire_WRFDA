@@ -81,11 +81,9 @@ This step results into creating conventional observations file, which would look
 
 **Step 4**: Once we have the output from _obsproc.exe_, the next step is to update background using update_bc.exe ($WRFDA_DIR/var/test/update_bc)
 
-
 ![](screenshots/image11.jpg)
 
 ![](screenshots/image12.jpg)
-
 
 Detailed description of the steps involved in WRF data assimilation can be found in the WRF user guide (https://www2.mmm.ucar.edu/wrf/users/docs/user_guide_V3/user_guide_V3.9/contents.html).
 
