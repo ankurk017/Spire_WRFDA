@@ -28,6 +28,10 @@ This tool needs 2 optional arguments as follows,
 
 
 ## Steps involved in ingesting Spire into WRFDA
+
+Below is the florchart of the steps invovled in the including Spire data in the WRFDA.
+![](screenshots/flowchart.jpg)
+
 **Step 1**: Order Spire data from SDX (https://csdap.earthdata.nasa.gov/), and download the data using Bulk Downloader script (https://github.com/NASA-IMPACT/csdap_bulk_download). User can prefer to have this folder anywhere in the directory. 
 
 ***Step 1a***
