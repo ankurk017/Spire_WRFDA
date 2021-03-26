@@ -76,7 +76,8 @@ This step results into creating conventional observations file, which would look
 ![](screenshots/image10.jpg)
 
 
-**Step 4**: Once we have the output from _obsproc.exe_, the next step is to update background using update_bc.exe ($WRFDA_DIR/var/test/update_bc)
+**Step 4**: Once we have the output from _obsproc.exe_, the next step is to run _da_wrfvar.exe_ ($WRFDA_DIR/var/test/tutorial) and update background using _update_bc.exe_ ($WRFDA_DIR/var/test/update_bc). This step leads to update of wrfinput file.
+
 ![](screenshots/image11.jpg)
 
 ![](screenshots/image12.jpg)
